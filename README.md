@@ -12,7 +12,7 @@ and a coded **RAG app** (embeddings + retrieval + citations).
 **🔗 Shareable Custom GPT:** _add your ChatGPT share link_ (see `custom-gpt/INSTRUCTIONS.md`)
 **▶ Watch (60s):** _add your Loom/YouTube link_
 
-![demo](docs/demo.png)
+![demo](docs/demo.gif)
 
 ## Why it's real RAG (not a chatbot with a big prompt)
 - **Embeddings + retrieval:** the query is embedded (`text-embedding-3-small`), chunks are ranked by

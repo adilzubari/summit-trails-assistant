@@ -8,11 +8,11 @@ and a coded **RAG app** (embeddings + retrieval + citations).
 > Portfolio demo by **Muhammad Adil** — Principal Software Engineer, ML Specialization (DeepLearning.AI).
 > This is the premium gig: few sellers can actually build grounded, cited RAG — most stop at a prompt.
 
-**🔗 Live RAG app:** _add your Vercel URL_
+**🔗 Live RAG app:** https://summit-trails-assistant.vercel.app
 **🔗 Shareable Custom GPT:** _add your ChatGPT share link_ (see `custom-gpt/INSTRUCTIONS.md`)
 **▶ Watch (60s):** _add your Loom/YouTube link_
 
-![demo](docs/demo.gif) <!-- add a GIF showing a cited answer + an "I don't know" -->
+![demo](docs/demo.png)
 
 ## Why it's real RAG (not a chatbot with a big prompt)
 - **Embeddings + retrieval:** the query is embedded (`text-embedding-3-small`), chunks are ranked by
@@ -43,4 +43,10 @@ question ──► embed ──► cosine rank over chunk embeddings (cached) �
 vercel dev          # local
 vercel --prod       # deploy
 ```
-Set `OPENAI_API_KEY` in Vercel (chat + embeddings). Summit Trails is a fictional demo business.
+Set `OPENAI_API_KEY` in Vercel (chat + embeddings).
+
+## Work with me
+Available for custom GPT / RAG builds on [Fiverr (lughut)](https://www.fiverr.com/lughut) ·
+adilzubari852@gmail.com · [LinkedIn](https://www.linkedin.com/in/m-adil-kamboh)
+
+Summit Trails is a fictional demo business.

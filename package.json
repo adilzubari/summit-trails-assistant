@@ -1,0 +1,8 @@
+{
+  "name": "summit-trails-assistant",
+  "version": "1.0.0",
+  "description": "RAG assistant grounded on business docs with citations (Vercel + OpenAI embeddings).",
+  "type": "module",
+  "private": true,
+  "license": "MIT"
+}

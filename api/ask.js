@@ -18,11 +18,13 @@ Cite sources inline like [1], [2] matching the context blocks. Be concise (2-4 s
 CONTEXT:
 ${context}`;
 
-    const r = await fetch("https://api.openai.com/v1/chat/completions", {
+    const BASE = process.env.OPENAI_BASE_URL || "https://api.openai.com/v1";
+    const MODEL = process.env.OPENAI_MODEL || "gpt-4o-mini";
+    const r = await fetch(`${BASE}/chat/completions`, {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
       body: JSON.stringify({
-        model: "gpt-4o-mini",
+        model: MODEL,
         temperature: 0.2,
         max_tokens: 350,
         messages: [
